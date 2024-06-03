@@ -1,25 +1,103 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
 }
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
+body{
+    background-color: blueviolet;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
 }
-
-main {
-    margin: 20px;
+.box-1{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: auto;
+    
 }
-
-footer {
-    background-color: #f1f1f1;
-    color: #333;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.box-2{
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    margin-top: 3pc;
+    border-radius: 50%;
+    border-top: solid transparent 50px;
+    border-right: solid yellow 50px;
+    border-left: solid yellow 50px;
+    border-bottom: solid yellow 60px;
+}
+.box-3{
+    background-color: black;
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: -0.5pc;
+    margin-top: 0.9pc;
+}
+.box-4{
+    height: 150px;
+    width: 600px;
+    background-color: red;
+}
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 2pc;
+    margin-top: 1pc;
+}
+.box-6{
+    height: 40px;
+    width: 350px;
+    background-color: yellow;
+    margin-top: -6pc;
+    margin-left: 13pc;
+}
+.box-7{
+    height: 40px;
+    width: 350px;
+    background-color: blue;
+    margin-top: 2pc;
+    margin-left: 13pc;
+}
+.box-8{
+    height: 300px;
+    width: 600px;
+    background-color: green;
+    margin-bottom: -30pc;
+    margin-left: -37.6pc;
+}
+.box-9{
+    height: 300px;
+    width: 190px;
+    background-color: skyblue;
+    margin-bottom: -69pc;
+    margin-left: -37.6pc;
+}
+.box-10{
+    height: 300px;
+    width: 190px;
+    background-color: red;
+    margin-bottom: -69pc;
+    margin-left: 0.5pc;
+}
+.box-11{
+    height: 300px;
+    width: 205px;
+    background-color: peru;
+    margin-bottom: -69pc;
+    margin-left: 0.5pc;
+}
+.box-12{
+    height: 150px;
+    width: 600px;
+    background-color: lightgreen;
+    margin-bottom: -98pc;
+    margin-left: -37.6pc;
 }
