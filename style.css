@@ -1,3 +1,12 @@
+body{
+    background-color: blueviolet;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
 .box-1{
     background-color: purple;
     width: 200px;
